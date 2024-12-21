@@ -3,31 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Portfolio</title>
-</head>
-<body>
-    <h1>Welcome to My First Portfolio</h1>
-    <p>This is a basic HTML file created as a starting point.</p>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tweets</title>
 </head>
 <body>
-    <h1>My Tweets</h1>
-    <p>Here is one of my favorite tweets:</p>
-    <!-- Embedded Tweet -->
-    <blockquote class="twitter-tweet">
-        <p lang="en" dir="ltr">This is an example tweet! <a href="https://twitter.com/elonmusk/status/1415364046265606145">https://twitter.com/elonmusk/status/1415364046265606145</a></p>
-        &mdash; Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/1415364046265606145">July 15, 2021</a>
-    </blockquote>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <!-- Header Section -->
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+        </ul>
+    </header>
 
-    <!-- Link back to homepage -->
-    <p><a href="index.html">Back to Homepage</a></p>
+    <!-- Main Section -->
+    <main>
+        <article>
+            <h1>My Tweets</h1>
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">This is an example tweet! <a href="https://twitter.com/elonmusk/status/1415364046265606145">https://twitter.com/elonmusk/status/1415364046265606145</a></p>
+                &mdash; Elon Musk (@elonmusk) <a href="https://twitter.com/elonmusk/status/1415364046265606145">July 15, 2021</a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <p><a href="index.html">Back to Homepage</a></p>
+        </article>
+        <aside>
+            <p>Placeholder to add comment thread later</p>
+        </aside>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Made by <YOUR NAME> - <a href="<ANY LINK>" target="_blank">here</a>.</p>
+    </footer>
 </body>
 </html>
